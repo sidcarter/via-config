@@ -28,8 +28,7 @@ import {
   LAYOUT_LUNAR,
   LAYOUT_G60,
   LAYOUT_PRIME_E,
-  LAYOUT_IDB_60,
-  LAYOUT_DZ65RGB
+  LAYOUT_IDB_60
 } from './kle-parser';
 import {
   parseLayout,
@@ -57,8 +56,7 @@ import {
   MATRIX_LUNAR,
   MATRIX_G60,
   MATRIX_PRIME_E,
-  MATRIX_IDB_60,
-  MATRIX_DZ65RGB
+  MATRIX_IDB_60
 } from './layout-parser';
 import KEYBOARDS from '../keyboards';
 
@@ -251,12 +249,6 @@ const LEGACY_DEVICE_META_MAP: DeviceMetaMap = {
     name: 'IDB 60',
     layout: LAYOUT_IDB_60,
     matrixLayout: MATRIX_IDB_60,
-    lights: false
-  },
-  0xFEED1224: {
-    name: 'DZ65RGB',
-    layout: LAYOUT_DZ65RGB,
-    matrixLayout: MATRIX_DZ65RGB,
     lights: false
   }
 };
